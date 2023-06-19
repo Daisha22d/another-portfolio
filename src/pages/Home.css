@@ -1,0 +1,14 @@
+.card-img {
+  max-width: 100%;
+  height: auto;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #ff85a1, #ffc3a0);
+}
+
+.card-body {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #ff85a1, #ffc3a0);
+  font-size: 18px;
+}

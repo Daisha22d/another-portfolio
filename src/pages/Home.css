@@ -1,14 +1,24 @@
-.card-img {
-  max-width: 100%;
-  height: auto;
-  border: 10px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, #ff85a1, #ffc3a0);
+body {
+  background-color: rgb(255, 238, 243);
 }
 
-.card-body {
+.card {
+  background-color: rgb(255, 238, 243);
+}
+
+
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   border: 10px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #ff85a1, #ffc3a0);
-  font-size: 18px;
 }

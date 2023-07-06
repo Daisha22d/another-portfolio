@@ -7,6 +7,7 @@ import './App.css';
 import Home from '../src/pages/Home.js';
 import Projects from '../src/pages/Projects.js';
 import Resume from '../src/pages/Resume.js';
+import About from './pages/About.js';
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
       <div className="App">
         <Header />
         <div className="content-container">
-          <h1 className="ombre-text">Daisha Drayton</h1>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
         <Footer />

@@ -4,3 +4,12 @@
     flex-direction: column;
   }
   
+  .footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #eeea09d6, #ee0979);
+    padding: 20px;
+  }
+  

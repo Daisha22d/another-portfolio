@@ -1,4 +1,7 @@
 .navbar-ombre {
-    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right,#eeea09d6, #ee0979);
   }
-  
+
+.mr-auto {
+ color: #eeea09d6;
+}

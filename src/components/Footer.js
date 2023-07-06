@@ -1,15 +1,29 @@
 import React from 'react';
 import '../components/Footer.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Footer() {
+
+function Footer() {
   return (
-    <div className="card">
-      <div className="card-body">
-        <blockquote className="blockquote mb-0">
-          <p>A well-known quote, contained in a blockquote element.</p>
-          <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-        </blockquote>
+    <footer>
+      <div className="footer-container">
+        <p>Daisha Drayton 2023 ©</p>
       </div>
-    </div>
+    </footer>
   );
 }
+
+export default Footer;
+
+// export default function Footer() {
+//   return (
+//     <div className="card">
+//       <div className="card-body">
+//         <blockquote className="blockquote mb-0">
+//           <p>"I speak multiple languages: English and JavaScript."</p>
+//           <footer className="blockquote-footer">A creative dev </footer>
+//         </blockquote>
+//       </div>
+//     </div>
+//   );
+// }

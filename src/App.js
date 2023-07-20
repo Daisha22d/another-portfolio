@@ -8,6 +8,7 @@ import Home from '../src/pages/Home.js';
 import Projects from '../src/pages/Projects.js';
 import Resume from '../src/pages/Resume.js';
 import About from './pages/About.js';
+import { useMediaQuery } from 'react-responsive';
 
 function App() {
   return (

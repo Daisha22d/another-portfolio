@@ -1,7 +1,18 @@
-.navbar-ombre {
-    background: linear-gradient(to right,#eeea09d6, #ee0979);
-  }
+/* Default styles for all screen sizes */
+.navbar-purple {
+  background: rgba(0, 4, 255, 0.395);
+}
 
-.mr-auto {
- color: #eeea09d6;
+/* Media query for screens with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+  .navbar-purple {
+    background: rgba(0, 4, 255, 0.395);
+  }
+}
+
+/* Media query for screens with a minimum width of 1024 pixels */
+@media (min-width: 1024px) {
+  .navbar-purple {
+    background:  rgba(0, 4, 255, 0.395);
+  }
 }

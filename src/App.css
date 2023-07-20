@@ -1,21 +1,37 @@
 .App {
   text-align: justify;
   text-indent: 25%;
-}
-
-.ombre-text {
-  background: -webkit-linear-gradient(left,  #ff6a00, #eeea09d6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.App {
-  background-color: rgba(240, 254, 159, 0.229);
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.mr-auto{
+.mr-auto {
   margin-left: auto;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media query for (tablet size) */
+@media (min-width: 768px) {
+  .App {
+    text-indent: 0; 
+  }
+
+  .content-container {
+    flex-direction: row;
+    margin: 0 20px;
+  }
+}
+
+/* Media query for (desktop size) */
+@media (min-width: 1024px) {
+  .content-container {
+    flex-direction: row;
+    margin: 0 50px;
+  }
 }

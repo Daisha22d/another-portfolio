@@ -1,12 +1,22 @@
 body {
-  background-color: rgb(255, 238, 243);
+  background-color: white;
 }
 
 .card {
-  background-color: rgb(255, 238, 243);
+  background-color: white;
 }
 
+.introContainer {
+  margin-top: 20vh;
+  text-align: center;
+}
 
+.text-h1 {
+  color: rgb(246, 2, 96);
+  text-align: justify;
+  text-indent: 0px;
+  margin-bottom: 30px;
+}
 
 .col-md-4 {
   display: flex;
@@ -16,9 +26,28 @@ body {
 
 .profilePic {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border: 10px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, #ff85a1, #ffc3a0);
+  width: 25%;
+  max-width: 300px; /* Set a maximum width for the profile picture */
+  height: auto; /* Let the height adjust based on the width */
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+}
+
+.p2, .p1, .email {
+  text-align: justify;
+  text-indent: 0px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 1;
+    width: 100%;
+  }
+
+  .profilePic {
+    width: 50%;
+    max-width: 150px;
+  }
 }

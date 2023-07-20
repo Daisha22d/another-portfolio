@@ -1,0 +1,47 @@
+/* Default styles for all screen sizes */
+.card-text {
+    text-align: justify;
+    text-indent: 0px;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+  .about-heading {
+    color: rgb(246, 2, 96);
+  }
+  
+  /* Media query for screens with a minimum width of 768 pixels (tablet size) */
+  @media (min-width: 768px) {
+    .card-text {
+      /* Add your responsive styles for tablet size */
+      /* For example, change the text-indent or add margin/padding */
+      text-indent: 20px;
+    }
+  
+    .about-container {
+      /* Add your responsive styles for tablet size */
+      /* For example, change the flex-direction or add margin/padding */
+      margin: 0 20px;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 1024 pixels (desktop size) */
+  @media (min-width: 1024px) {
+    .card-text {
+      /* Add your responsive styles for desktop size */
+      /* For example, change the text-indent or add margin/padding */
+      text-indent: 30px;
+    }
+  
+    .about-container {
+      /* Add your responsive styles for desktop size */
+      /* For example, change the flex-direction or add margin/padding */
+      margin: 0 50px;
+    }
+  }
+  

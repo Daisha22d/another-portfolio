@@ -1,18 +1,17 @@
-/* Default styles for all screen sizes */
 .navbar-purple {
   background: rgba(0, 4, 255, 0.395);
 }
 
-/* Media query for screens with a maximum width of 768 pixels */
-@media (max-width: 768px) {
+/* Media query for (tablet size) */
+@media (min-width: 768px) {
   .navbar-purple {
-    background: rgba(0, 4, 255, 0.395);
+    background:  rgba(0, 4, 255, 0.395);
   }
 }
 
-/* Media query for screens with a minimum width of 1024 pixels */
+/* Media query for (desktop size) */
 @media (min-width: 1024px) {
   .navbar-purple {
-    background:  rgba(0, 4, 255, 0.395);
+    background: rgba(0, 4, 255, 0.395);
   }
 }

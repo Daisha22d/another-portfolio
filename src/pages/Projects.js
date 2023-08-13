@@ -9,7 +9,7 @@ const Projects = () => {
             <p>Here are some of my projects:</p>
             <ul>
                 <li>
-                    <Link to="/projects/1">Project 1</Link>
+                    <Link to="https://github.com/Daisha22d">GitHub</Link>
                 </li>
             </ul>
         </div>

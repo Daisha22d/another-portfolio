@@ -12,20 +12,20 @@ export default function Header() {
   // Define responsive styles based on the screen size
   const headerStyle = {
     padding: "0 1px",
-    height: isMobile ? "80px" : "50px", 
-    flexDirection: isMobile ? "column" : "row", 
-    // alignItems: "center", 
+    height: isMobile ? "80px" : "50px",
+    flexDirection: isMobile ? "column" : "row",
+    alignItems: "center",
   };
 
   const logoStyle = {
-    width: isMobile ? "80px" : "140px", 
+    width: isMobile ? "80px" : "140px",
     marginBottom: isMobile ? "10px" : "0",
-    marginRight: isMobile ? "0" : "10px", 
+    marginRight: isMobile ? "0" : "10px",
   };
 
   const navLinksStyle = {
-    marginTop: isMobile ? "10px" : "0", 
-    marginLeft: isMobile ? "0" : "auto", 
+    marginTop: isMobile ? "10px" : "0",
+    marginLeft: isMobile ? "0" : "auto",
   };
 
   return (
@@ -33,11 +33,11 @@ export default function Header() {
       <Navbar.Brand as={Link} to="/" style={{ display: "flex", alignItems: "center" }}>
         <img src={Logo} alt="logo" className="logo" style={logoStyle} />
         {isMobile ? (
-          <span className="logo-text" style={{ marginLeft: "10px" }}></span>
+          <span className="logo-text" style={{ marginLeft: "10px" }}>My Site</span>
         ) : null}
       </Navbar.Brand>
       {isMobile && <Navbar.Toggle aria-controls="responsive-navbar-nav" />}
-      <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+      <Navbar.Collapse id="responsive-navbar-nav" className={isMobile ? "justify-content-center" : "justify-content-end"}>
         <Nav style={navLinksStyle}>
           <Nav.Link as={Link} to="/" style={{ fontWeight: "bold", color: "rgb(246, 2, 96)" }}>Home</Nav.Link>
           <Nav.Link as={Link} to="/about" style={{ fontWeight: "bold", color: "rgb(246, 2, 96)" }}>About</Nav.Link>

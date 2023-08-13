@@ -33,7 +33,7 @@ export default function Header() {
       <Navbar.Brand as={Link} to="/" style={{ display: "flex", alignItems: "center" }}>
         <img src={Logo} alt="logo" className="logo" style={logoStyle} />
         {isMobile ? (
-          <span className="logo-text" style={{ marginLeft: "10px" }}>My Site</span>
+          <span className="logo-text" style={{ marginLeft: "10px" }}></span>
         ) : null}
       </Navbar.Brand>
       {isMobile && <Navbar.Toggle aria-controls="responsive-navbar-nav" />}

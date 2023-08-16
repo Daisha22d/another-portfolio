@@ -11,21 +11,20 @@ export default function Header() {
 
   // Define responsive styles based on the screen size
   const headerStyle = {
-    padding: "0 1px",
-    height: isMobile ? "80px" : "50px",
-    flexDirection: isMobile ? "column" : "row",
+    padding: "10px 20px", // Adjust padding
+    flexDirection: "row", // Keep it horizontal
     alignItems: "center",
+    justifyContent: "space-between", // Distribute elements evenly
   };
 
   const logoStyle = {
-    width: isMobile ? "80px" : "140px",
-    marginBottom: isMobile ? "10px" : "0",
-    marginRight: isMobile ? "0" : "10px",
+    width: "140px", // Keep logo width consistent
   };
 
   const navLinksStyle = {
-    marginTop: isMobile ? "10px" : "0",
-    marginLeft: isMobile ? "0" : "auto",
+    display: "flex", // Ensure links are displayed in a row
+    alignItems: "center",
+    gap: "20px", // Adjust gap between links
   };
 
   return (
@@ -37,7 +36,7 @@ export default function Header() {
         ) : null}
       </Navbar.Brand>
       {isMobile && <Navbar.Toggle aria-controls="responsive-navbar-nav" />}
-      <Navbar.Collapse id="responsive-navbar-nav" className={isMobile ? "justify-content-center" : "justify-content-end"}>
+      <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
         <Nav style={navLinksStyle}>
           <Nav.Link as={Link} to="/" style={{ fontWeight: "bold", color: "rgb(246, 2, 96)" }}>Home</Nav.Link>
           <Nav.Link as={Link} to="/about" style={{ fontWeight: "bold", color: "rgb(246, 2, 96)" }}>About</Nav.Link>

@@ -7,11 +7,11 @@
 
 .footer-container {
   flex-shrink: 0; /* Prevent the footer from shrinking */
-  background: rgba(0, 4, 255, 0.395);
+  background:rgba(0,0,0);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
   padding: 20px 0; /* Increase the padding to make the footer taller */

@@ -1,0 +1,16 @@
+.project-heading {
+    color: rgb(246, 2, 96);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: -300px; 
+}
+

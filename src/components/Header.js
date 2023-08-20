@@ -36,10 +36,10 @@ export default function Header() {
       {isMobile && <Navbar.Toggle aria-controls="responsive-navbar-nav" />}
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
         <Nav style={navLinksStyle}>
-          <Nav.Link as={Link} to="/" style={{ fontWeight: "bold", color: "rgb(0, 0, 0)" }}>Home</Nav.Link>
-          <Nav.Link as={Link} to="/about" style={{ fontWeight: "bold", color: "rgb(0, 0, 0)" }}>About</Nav.Link>
-          <Nav.Link as={Link} to="/projects" style={{ fontWeight: "bold", color: "rgb(0, 0, 0)" }}>Projects</Nav.Link>
-          <Nav.Link as={Link} to="/resume" style={{ fontWeight: "bold", color: "rgb(0, 0, 0)" }}>Resume</Nav.Link>
+          <Nav.Link as={Link} to="/" style={{ fontWeight: "bold", color: "rgb(255, 255, 255)" }}>Home</Nav.Link>
+          <Nav.Link as={Link} to="/about" style={{ fontWeight: "bold", color: "rgb(255, 255, 255)" }}>About</Nav.Link>
+          <Nav.Link as={Link} to="/projects" style={{ fontWeight: "bold", color: "rgb(255, 255, 255)" }}>Projects</Nav.Link>
+          <Nav.Link as={Link} to="/resume" style={{ fontWeight: "bold", color: "rgb(255, 255, 255)" }}>Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

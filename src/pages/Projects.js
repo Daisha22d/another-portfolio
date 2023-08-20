@@ -4,8 +4,8 @@ import "../pages/Projects.css";
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects</h1>
+        <div className="proj-container">
+            <strong className="project-heading">Projects</strong>
             <p>Here are some of my projects:</p>
             <ul>
                 <li>

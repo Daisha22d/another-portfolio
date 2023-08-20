@@ -1,17 +1,17 @@
 .navbar-purple {
-  background: rgba(0, 4, 255, 0.395);
+  background: rgba(0,0,0);
 }
 
 /* Media query for (tablet size) */
 @media (min-width: 768px) {
   .navbar-purple {
-    background:  rgba(0, 4, 255, 0.395);
+    background:  rgba(0,0,0);
   }
 }
 
 /* Media query for (desktop size) */
 @media (min-width: 1024px) {
   .navbar-purple {
-    background: rgba(0, 4, 255, 0.395);
+    background: rgba(0,0,0);
   }
 }

@@ -1,9 +1,10 @@
 .resume-container {
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 90%;
   }
   
   .resume-title {
@@ -12,9 +13,10 @@
   }
   
   .pdf-container {
-    width: 100%;
+    width: 90%;
     max-width: 800px; /* Set a maximum width for desktop screens */
-    margin: 0 auto; /* Center the container horizontally */
+    margin-top: -350px;
+    margin-left: -15%;
   }
   
   .pdf-container embed {

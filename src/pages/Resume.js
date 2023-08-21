@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../../src/res08.pdf';
+import resumePDF from '../assets/DDSERES.pdf';
 import '../pages/Resume.css';
 
 export default function Resume() {
@@ -7,7 +7,7 @@ export default function Resume() {
     <div className="resume-container">
       <h1 className="resume-title">Resume</h1>
       <div className="pdf-container">
-        <embed src={resumePDF} type="application/pdf" width="100%" height="650px" />
+        <embed src={resumePDF} type="application/pdf" width="100%" height="450px" />
       </div>
     </div>
   );

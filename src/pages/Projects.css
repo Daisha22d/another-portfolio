@@ -1,7 +1,7 @@
 .project-heading {
     color: rgb(246, 2, 96);
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 2.5rem; /* Adjust font size for scalability */
+    margin-bottom: 20px; /* Increased margin for better spacing */
 }
 
 .proj-container {
@@ -9,8 +9,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* Changed height to min-height for scalability */
     text-align: center;
-    margin-top: -300px; 
 }
 
+.proj-container p {
+    font-size: 1.2rem; /* Adjust font size for readability */
+    line-height: 1.5; /* Improved line spacing for better readability */
+    margin-top: 10px; /* Added margin to the top of project descriptions */
+}
+
+.proj-container ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Adjusted margin for better spacing */
+}
+
+.proj-container li {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}

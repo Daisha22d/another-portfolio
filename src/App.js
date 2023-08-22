@@ -17,7 +17,7 @@ function App() {
         <Header />
         <div className="content-container">
           <Routes>
-            <Route path="/another-portfolio" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/about" element={<About />} />
@@ -28,7 +28,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
-
 
 export default App;

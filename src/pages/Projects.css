@@ -4,6 +4,7 @@
   font-weight: 500;
   font-family: "Courier New", Courier, monospace;
 }
+
 .proj-container {
   margin: 30px auto;
   padding: 15px;
@@ -18,12 +19,6 @@
   padding: 5px;
 }
 
-.proj-container p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-top: 10px;
-}
-
 .proj-container ul {
   list-style: none;
   padding: 10px;
@@ -33,4 +28,29 @@
 .proj-container li {
   margin-bottom: 20px;
   padding: 15px;
+}
+
+.project-paragraph {
+  text-align: justify;
+  text-indent: 2%;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+  .project-item p {
+    text-indent: 4%;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-item p {
+    text-indent: 6%;
+    margin-top: 2rem;
+  }
 }

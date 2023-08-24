@@ -1,37 +1,89 @@
 .card {
-  margin: 30px auto;
-  padding: 20px;
+  margin: 5% auto;
+  padding: 2%;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   width: 90%;
-  max-width: 800px; 
+  max-width: 800px;
 }
+
 .about-heading {
-  color: rgb(246, 2, 96);
-  font-size: 2.5rem;
+  text-align: center !important; /* Ensure centering takes precedence */
+  font-size: 2rem;
   font-family: 'Courier New', Courier, monospace;
-  margin-bottom: 5%;
+  color: rgb(246, 2, 96);
+  margin-bottom: 1.5rem; /* Adjust spacing below the heading */
 }
+
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .about-heading {
+    font-size: 2.5rem; /* Adjust font size for larger screens */
+    margin-bottom: 4%; /* Adjust spacing for larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-heading {
+    font-size: 3rem; /* Adjust font size for desktop screens */
+    margin-bottom: 5%; /* Adjust spacing for desktop screens */
+  }
+}
+
+
+.card-text {
+  margin-top: 1rem; 
+  text-indent: 2%;
+}
+
+.about-container {
+  margin: 0 2%;
+}
+
+.description {
+  text-align: justify; 
+  text-indent: 2%; 
+  line-height: 1.6; 
+  font-size: 1rem; 
+  color: #333; 
+}
+
+
+@media (min-width: 768px) {
+  .description {
+    text-indent: 4%; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .description {
+    text-indent: 6%; 
+  }
+}
+
 
 /* Media query for screens with a minimum width of 768 pixels (tablet size) */
 @media (min-width: 768px) {
   .card-text {
-    text-indent: 20px;
+    margin-top: 1.5rem; 
+    text-indent: 4%;
   }
 
   .about-container {
-    margin: 0 20px;
+    margin: 0 5%;
   }
 }
 
 /* Media query for screens with a minimum width of 1024 pixels (desktop size) */
 @media (min-width: 1024px) {
   .card-text {
-    text-indent: 30px;
+    margin-top: 2rem; 
+    text-indent: 6%;
   }
 
   .about-container {
-    margin: 0 50px;
+    margin: 0 10%;
   }
 }

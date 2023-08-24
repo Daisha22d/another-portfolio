@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive';
 import { Link } from "react-scroll";
-import HeadShot from "../images/headshot.JPG";
+import HeadShot from "../images/headshot.png";
 import "../pages/Home.css"; 
 
 const Home = () => {

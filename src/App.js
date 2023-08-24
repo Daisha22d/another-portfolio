@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Header from '../src/components/Header.js';
 import Footer from '../src/components/Footer.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +12,7 @@ import { useMediaQuery } from 'react-responsive';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header />
         <div className="content-container">
@@ -25,7 +25,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

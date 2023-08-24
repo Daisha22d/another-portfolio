@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../assets/DDSERES.pdf';
+import resumePDF from '../assets/DDFallRes.pdf';
 import '../pages/Resume.css';
 
 export default function Resume() {

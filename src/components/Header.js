@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useMediaQuery } from 'react-responsive';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import { useMediaQuery } from "react-responsive";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import "../components/Header.css";
 
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
     }
   };
 
-  const closeMenu = () => {
+  const closeMenu = () => {  
     if (isMobile) {
       setMenuExpanded(false);
     }
@@ -43,7 +43,11 @@ export default function Header() {
       style={headerStyle}
       expanded={menuExpanded}
     >
-      <Navbar.Brand as={Link} to="/" style={{ display: "flex", alignItems: "center" }}>
+      <Navbar.Brand
+        as={Link}
+        to="/"
+        style={{ display: "flex", alignItems: "center" }}
+      >
         {isMobile ? (
           <span className="logo-text" style={{ marginLeft: "10px" }}></span>
         ) : null}

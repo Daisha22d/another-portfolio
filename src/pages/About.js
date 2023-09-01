@@ -13,24 +13,26 @@ const About = () => {
               <h1 className="about-heading text-center">About Me</h1>
               <div className="mb-4">
                 <p className="description">
-                  My name is Daisha Drayton, and I'm proud to call Atlanta, GA,
-                  my home! As the field of technology constantly evolves, I am
-                  fueled by the excitement of embracing the future. I believe
-                  that continuous learning is key to staying ahead, which is why
-                  the industry is so intriguing to me — each day presents new
-                  challenges and opportunities to expand my knowledge. To
-                  further enhance my technical skills, I completed the GA Tech
-                  Bootcamp, where I honed my abilities and gained hands-on
-                  experience. With a bachelor's degree in sociology from Georgia
-                  State University, I have also accumulated over 5 years of
-                  invaluable experience in customer service, allowing me to
-                  connect with individuals from diverse backgrounds and foster
-                  meaningful relationships. Besides my passion for technology
-                  and problem-solving, there's one thing that never fails to
-                  bring a smile to my face — Taco Tuesday! It's a day I look
-                  forward to each week because who doesn't love tacos? Now, I'm
-                  excited to join a great team and embark on an incredible
-                  journey of creating something extraordinary together!
+                  I am a tech enthusiast with experience as a business
+                  development representative focused on market research. I am
+                  passionate about developing creative solutions to problems and
+                  building and nurturing relationships. I am driven by the
+                  excitement of embracing the future and believe that continuous
+                  learning is the key to staying ahead. I have a bachelor's
+                  degree in sociology from Georgia State University, where I
+                  learned critical thinking and problem-solving skills, data
+                  analysis skills, communication skills, interpersonal skills,
+                  and understanding of social trends. I have also completed
+                  certifications in software development and generative AI. In
+                  my previous role, I was responsible for developing and
+                  executing market research strategies, managing client
+                  relationships, and delivering insights that helped businesses
+                  make informed decisions. I am a proven team leader with a
+                  track record of success, and I am confident that I can use my
+                  skills and experience to make a significant contribution to
+                  your team. I am eager to join a great team and embark on an
+                  incredible journey of creating something extraordinary
+                  together.
                 </p>
               </div>
             </div>

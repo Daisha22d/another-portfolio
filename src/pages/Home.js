@@ -1,8 +1,8 @@
 import React from "react";
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
 import { Link } from "react-scroll";
 import HeadShot from "../images/headshot.png";
-import "../pages/Home.css"; 
+import "../pages/Home.css";
 
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -17,17 +17,25 @@ const Home = () => {
               <h1 className="text-h1">Hi, I'm Daisha</h1>
               <p className="p1">
                 <b>
-                  I'm passionate about learning and advancing my skills to share
-                  what I've learned with others.
+                  I'm a software developer with a passion for using technology
+                  to solve real-world problems.
                 </b>
               </p>
               <p className="p2">
                 <b>
-                  I recently completed the Georgia Tech coding bootcamp for full
-                  stack development, and I am thrilled to be a part of this
-                  dynamic and innovative industry. Technology is rapidly shaping
-                  every field, and I'm excited to contribute my skills and
-                  knowledge to create a better future through tech.
+                  I'm skilled in a variety of programming languages and
+                  technologies, including JavaScript, React, Node.js, and
+                  Python. I have experience working on a variety of projects,
+                  from personal projects to agile teams. I'm also a blogger on
+                  Medium{" "}
+                  <a
+                    className="medium-link"
+                    href="https://medium.com/@daishadeniz"
+                  >
+                    medium.com/@daishadeniz
+                  </a>
+                  , where I write about coding, personal development, and other
+                  topics that inspire and uplift others.
                 </b>
               </p>
               <p className="email">
@@ -48,23 +56,34 @@ const Home = () => {
                 <h1 className="text-h1">Hi, I'm Daisha</h1>
                 <p className="p1">
                   <b>
-                    I'm passionate about learning and advancing my skills to share
-                    what I've learned with others.
+                  I'm a software developer with a passion for using technology
+                  to solve real-world problems.
                   </b>
                 </p>
                 <p className="p2">
                   <b>
-                    I recently completed the Georgia Tech coding bootcamp for full
-                    stack development, and I am thrilled to be a part of this
-                    dynamic and innovative industry. Technology is rapidly shaping
-                    every field, and I'm excited to contribute my skills and
-                    knowledge to create a better future through tech.
+                  I'm skilled in a variety of programming languages and
+                  technologies, including JavaScript, React, Node.js, and
+                  Python. I have experience working on a variety of projects,
+                  from personal projects to agile teams. I'm also a blogger on
+                  Medium{" "}
+                  <a
+                    className="medium-link"
+                    href="https://medium.com/@daishadeniz"
+                  >
+                    medium.com/@daishadeniz
+                  </a>
+                  , where I write about coding, personal development, and other
+                  topics that inspire and uplift others.
                   </b>
                 </p>
                 <p className="email">
                   <b>
                     Email me at{" "}
-                    <a className="email-link" href="mailto:daishadeniz@gmail.com">
+                    <a
+                      className="email-link"
+                      href="mailto:daishadeniz@gmail.com"
+                    >
                       daishadeniz@gmail.com
                     </a>
                   </b>
@@ -72,12 +91,11 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="profilePicContainer" style={{ marginTop: "80px" }}>
-                <img
-                  src={HeadShot}
-                  alt="profile pic"
-                  className="profilePic"
-                />
+              <div
+                className="profilePicContainer"
+                style={{ marginTop: "80px" }}
+              >
+                <img src={HeadShot} alt="profile pic" className="profilePic" />
               </div>
             </div>
           </>
@@ -88,5 +106,3 @@ const Home = () => {
 };
 
 export default Home;
-
-

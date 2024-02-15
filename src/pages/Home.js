@@ -17,16 +17,14 @@ const Home = () => {
               <h1 className="text-h1">Hi, I'm Daisha</h1>
               <p className="p1">
                 <b>
-                  I'm a software developer with a passion for using technology
+                  I'm an analyst with a passion for using technology
                   to solve real-world problems.
                 </b>
               </p>
               <p className="p2">
                 <b>
                   I'm skilled in a variety of programming languages and
-                  technologies, including JavaScript, React, Node.js, and
-                  Python. I have experience working on a variety of projects,
-                  from personal projects to agile teams. I'm also a blogger on
+                  technologies and I'm also a blogger on
                   Medium{" "}
                   <a
                     className="medium-link"
@@ -34,7 +32,7 @@ const Home = () => {
                   >
                     medium.com/@daishadeniz
                   </a>
-                  , where I write about coding, personal development, and other
+                  , where I write about personal development and other
                   topics that inspire and uplift others.
                 </b>
               </p>
@@ -56,16 +54,14 @@ const Home = () => {
                 <h1 className="text-h1">Hi, I'm Daisha</h1>
                 <p className="p1">
                   <b>
-                  I'm a software developer with a passion for using technology
+                  I'm an analyst with a passion for using technology
                   to solve real-world problems.
                   </b>
                 </p>
                 <p className="p2">
                   <b>
                   I'm skilled in a variety of programming languages and
-                  technologies, including JavaScript, React, Node.js, and
-                  Python. I have experience working on a variety of projects,
-                  from personal projects to agile teams. I'm also a blogger on
+                  technologies and I'm also a blogger on
                   Medium{" "}
                   <a
                     className="medium-link"
@@ -73,7 +69,7 @@ const Home = () => {
                   >
                     medium.com/@daishadeniz
                   </a>
-                  , where I write about coding, personal development, and other
+                  , where I write about personal development and other
                   topics that inspire and uplift others.
                   </b>
                 </p>

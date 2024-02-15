@@ -13,23 +13,20 @@ const About = () => {
               <h1 className="about-heading text-center">About Me</h1>
               <div className="mb-4">
                 <p className="description">
-                  Enthusiastic about tech and making a transition to software
-                  engineering, especially in a work culture that embraces
-                  diverse backgrounds! Currently, as a Software Engineer Intern
-                  at Esync Technologies, I contribute to a team building a Dart
-                  and Flutter-based mental health app. My tech journey kicked
-                  off with a Software Dev. Certification from Georgia Tech,
-                  covering frontend, backend, and agile methodologies. As a
-                  former Business Development Rep at Mimi’s Spa, I honed
-                  transferable skills in advanced Excel analysis and customer
-                  relations, driving a 20% sales boost. My sociology degree from
-                  Georgia State enhances my problem-solving approach. Notable
-                  projects, like the Mental Health App and contributions to the
-                  City of Refuge Hackathon, underscore my commitment to
-                  impactful tech solutions. Excited about the industry's support
-                  for career switchers, I'm eager to bring my diverse skill set
-                  to a full-time Software Engineer role. Let's collaborate and
-                  create something extraordinary! 
+                  Passionate about technology and creating solutions for
+                  real-world problems. Recently, I served as a software engineer
+                  intern at Esync Technologies, contributing to a mobile mental
+                  health app built with Dart and Flutter. My programming journey
+                  began at Georgia Tech's coding bootcamp, where I developed
+                  skills in several programming languages and agile
+                  methodologies. With a sociology degree from Georgia State, I
+                  bring strong interpersonal abilities and a user-centered
+                  perspective to problem-solving. My work on impactful projects
+                  like the mental health app and participation in the City of
+                  Refuge Hackathon demonstrate my commitment to utilizing
+                  technology for positive change. I am excited to collaborate
+                  and innovate in the tech field by applying my diverse
+                  background and skills to build something extraordinary!
                 </p>
               </div>
             </div>

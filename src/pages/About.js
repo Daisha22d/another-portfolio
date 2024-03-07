@@ -21,7 +21,7 @@ const About = () => {
                   sociology from Georgia State University, I bring not only
                   technical proficiency but also strong interpersonal abilities
                   and a user-centered perspective to the table. I'm eager to
-                  join a dynamic team where I can share my fresh ideas, learn
+                  join a dynamic team where I can share my fresh ideas, learn 
                   from experienced professionals, and contribute to building
                   something truly extraordinary.
                 </p>

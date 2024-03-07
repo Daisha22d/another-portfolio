@@ -13,20 +13,17 @@ const About = () => {
               <h1 className="about-heading text-center">About Me</h1>
               <div className="mb-4">
                 <p className="description">
-                  Passionate about technology and creating solutions for
-                  real-world problems. Recently, I served as a software engineer
-                  intern at Esync Technologies, contributing to a mobile mental
-                  health app built with Dart and Flutter. My programming journey
-                  began at Georgia Tech's coding bootcamp, where I developed
-                  skills in several programming languages and agile
-                  methodologies. With a sociology degree from Georgia State, I
-                  bring strong interpersonal abilities and a user-centered
-                  perspective to problem-solving. My work on impactful projects
-                  like the mental health app and participation in the City of
-                  Refuge Hackathon demonstrate my commitment to utilizing
-                  technology for positive change. I am excited to collaborate
-                  and innovate in the tech field by applying my diverse
-                  background and skills to build something extraordinary!
+                  I am currently on track for admission into a Data Science
+                  Master's program, driven by my passion for programming and
+                  problem-solving. My journey began at Georgia Tech's coding
+                  bootcamp, where I gained skills in several programming
+                  languages and agile methodologies. With a background in
+                  sociology from Georgia State University, I bring not only
+                  technical proficiency but also strong interpersonal abilities
+                  and a user-centered perspective to the table. I'm eager to
+                  join a dynamic team where I can share my fresh ideas, learn
+                  from experienced professionals, and contribute to building
+                  something truly extraordinary.
                 </p>
               </div>
             </div>

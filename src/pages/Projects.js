@@ -16,36 +16,36 @@ const Projects = () => {
           <li className="list-group-item">
             <div className="project-item">
               <a
-                href="https://chatbot-00-eac25725f44b.herokuapp.com/" 
+                href="https://github.com/Daisha22d/ollama-loop"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Robo Bot - Assistant Chatbot
+                Ollama in the Loop
               </a>
-              
+
               <p className="project-paragraph">
-                An assistant bot that you can ask anything. Type a 
-                question and the bot will reply. 
+                Human Led Decision Flows with Open Source Model Enabled Function
+                Calls in Langgraph.
               </p>
-              
+
               <p className="project-paragraph">
-                My role: Developed this app using Flask, deployed on Heroku, and used OpenAI API.
+                My role: Forked a Langgraph example and recreated the example.
               </p>
-              
+
               <p className="project-paragraph">
-                Technologies: Flask, Python, HTML, CSS, Heroku
+                Technologies: Jupyter Notebook, Python
               </p>
-              
+
               <a
-                href="https://github.com/Daisha22d/probable-guacamole"
+                href="https://medium.com/@daishadeniz/empowering-human-led-decision-flows-with-open-source-model-enabled-function-calls-in-langgraph-34c1acf7169d"
                 target="_blank"
-                rel="noopener noreferrer"  
+                rel="noopener noreferrer"
               >
-                Robo Bot Repo
+                Ollama in the Loop Discussion Paper
               </a>
             </div>
           </li>
-          
+
           <li className="list-group-item">
             <div className="project-item">
               <a
@@ -55,21 +55,21 @@ const Projects = () => {
               >
                 Python Mini Quiz
               </a>
-              
+
               <p className="project-paragraph">
                 A quiz app that tests users' Python knowledge with a few
                 beginner-friendly questions.
               </p>
-              
+
               <p className="project-paragraph">
-                My role: Designed and developed this app using React and 
+                My role: Designed and developed this app using React and
                 deployed on Github Pages
               </p>
-              
+
               <p className="project-paragraph">
                 Technologies: React, JSX, CSS, Github Pages
               </p>
-              
+
               <a
                 href="https://github.com/Daisha22d/py-quiz"
                 target="_blank"

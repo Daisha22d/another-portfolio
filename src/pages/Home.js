@@ -17,7 +17,7 @@ const Home = () => {
               <h1 className="text-h1">Hi, I'm Daisha</h1>
               <p className="p1">
                 <b>
-                  I'm an analyst with a passion for using technology
+                  I have a passion for using technology
                   to solve real-world problems.
                 </b>
               </p>
@@ -32,7 +32,7 @@ const Home = () => {
                   >
                     medium.com/@daishadeniz
                   </a>
-                  , where I write about personal development and other
+                  , where I write about personal development, tech, and other
                   topics that inspire and uplift others.
                 </b>
               </p>
@@ -54,7 +54,7 @@ const Home = () => {
                 <h1 className="text-h1">Hi, I'm Daisha</h1>
                 <p className="p1">
                   <b>
-                  I'm an analyst with a passion for using technology
+                  I have a passion for using technology
                   to solve real-world problems.
                   </b>
                 </p>
@@ -69,7 +69,7 @@ const Home = () => {
                   >
                     medium.com/@daishadeniz
                   </a>
-                  , where I write about personal development and other
+                  , where I write about personal development, tech, and other
                   topics that inspire and uplift others.
                   </b>
                 </p>
